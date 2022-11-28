@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="optcdk">
-      <HintPath>..\..\..\optcdkcs\bin\Debug\net6.0\optcdkcs.dll</HintPath>
+    <Reference Include="optcdkcs">
+      <HintPath>..\..\..\..\y4-admin\aws-opt-artifacts\optlibcs\optcdkcs\bin\Debug\net6.0\optcdkcs.dll</HintPath>
     </Reference>
   </ItemGroup>
 

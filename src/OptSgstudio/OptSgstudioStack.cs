@@ -1,5 +1,7 @@
 using Amazon.CDK;
 using Constructs;
+using Amazon.CDK.AWS.Sagemaker;
+using Amazon.CDK.AWS.IAM;
 
 namespace OptSgstudio
 {
@@ -7,7 +9,17 @@ namespace OptSgstudio
     {
         internal OptSgstudioStack(Construct scope, string id, IStackProps props = null) : base(scope, id, props)
         {
-            // The code that defines your stack goes here
+            Role optStudioRole;
+            string DomainName = "vol-opt-studio-dev";
+
+            CfnDomain optStudioDomain = new CfnDomain(this, "optStudio-Domain", new CfnDomainProps
+            {
+                AuthMode = "IAM",
+                DefaultUserSettings = new 
+
+
+            })
+            
         }
     }
 }
