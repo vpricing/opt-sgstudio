@@ -1,0 +1,25 @@
+{
+  "Version": "0.0.1",
+  "Env": "dev",
+  "Company": "vol",
+  "Department": "rm",
+  "Area": "opt",
+  "Area-comm": "opt",
+  "Project": "SageMakerStudio",
+  "Stack": {
+    "Name": "SGMS",
+    "Description": "SageMakerStudio"
+  },
+  "Component": {
+    "studio": {
+      "code": "studio",
+      "Description":  "Main Studio for SageMaker"
+    }
+  },
+  "EnvAccount": {
+    "account": "108160666657",
+    "region": "us-east-1",
+    "qualifier": "dev01env",
+    "file_assets_bucket_name": "voi-prc-cloud-dev-adm"
+  }
+}
